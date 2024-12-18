@@ -5,7 +5,7 @@ import Content from "./components/Content";
 import "./App.css";
 
 function App() {
-  const usernameGithub = "abrordc";
+  const usernameGithub = "AbrorilHuda";
   const [profile, setProfile] = useState(null);
   useEffect(() => {
     fetch(`https://api.github.com/users/${usernameGithub}`)
